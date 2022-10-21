@@ -37,7 +37,7 @@ class ViewController: UIViewController,UICollectionViewDataSource,UICollectionVi
         let layout = UICollectionViewFlowLayout()
         collectionView.collectionViewLayout = layout
         let nib = UINib(nibName: "MyCollectionViewCell", bundle: nil)
-        collectionView.register(nib, forCellWithReuseIdentifier: "playerCell") as! MyCollectionViewCell
+        collectionView.register(nib, forCellWithReuseIdentifier: "playerCell")
         
         
         
