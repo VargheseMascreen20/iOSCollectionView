@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE46A93429027C79006A76C4 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE46A93229027C79006A76C4 /* MyCollectionViewCell.swift */; };
+		AE46A93529027C79006A76C4 /* MyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE46A93329027C79006A76C4 /* MyCollectionViewCell.xib */; };
+		AE644C3129010A83001C0536 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE644C3029010A83001C0536 /* CollectionViewCell.swift */; };
 		AE7D2FD328FFC25000E6001A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7D2FD228FFC25000E6001A /* AppDelegate.swift */; };
 		AE7D2FD528FFC25000E6001A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7D2FD428FFC25000E6001A /* SceneDelegate.swift */; };
 		AE7D2FD728FFC25000E6001A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7D2FD628FFC25000E6001A /* ViewController.swift */; };
@@ -36,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AE46A93229027C79006A76C4 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		AE46A93329027C79006A76C4 /* MyCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCollectionViewCell.xib; sourceTree = "<group>"; };
+		AE644C3029010A83001C0536 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		AE7D2FCF28FFC25000E6001A /* CollectionViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE7D2FD228FFC25000E6001A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE7D2FD428FFC25000E6001A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,6 +109,9 @@
 				AE7D2FD428FFC25000E6001A /* SceneDelegate.swift */,
 				AE7D2FD628FFC25000E6001A /* ViewController.swift */,
 				AE7D2FD828FFC25000E6001A /* Main.storyboard */,
+				AE46A93229027C79006A76C4 /* MyCollectionViewCell.swift */,
+				AE46A93329027C79006A76C4 /* MyCollectionViewCell.xib */,
+				AE644C3029010A83001C0536 /* CollectionViewCell.swift */,
 				AE7D2FDB28FFC25200E6001A /* Assets.xcassets */,
 				AE7D2FDD28FFC25200E6001A /* LaunchScreen.storyboard */,
 				AE7D2FE028FFC25200E6001A /* Info.plist */,
@@ -233,6 +242,7 @@
 			files = (
 				AE7D2FDF28FFC25200E6001A /* LaunchScreen.storyboard in Resources */,
 				AE7D2FDC28FFC25200E6001A /* Assets.xcassets in Resources */,
+				AE46A93529027C79006A76C4 /* MyCollectionViewCell.xib in Resources */,
 				AE7D2FDA28FFC25000E6001A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,7 +269,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE7D2FD728FFC25000E6001A /* ViewController.swift in Sources */,
+				AE46A93429027C79006A76C4 /* MyCollectionViewCell.swift in Sources */,
 				AE7D2FD328FFC25000E6001A /* AppDelegate.swift in Sources */,
+				AE644C3129010A83001C0536 /* CollectionViewCell.swift in Sources */,
 				AE7D2FD528FFC25000E6001A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
